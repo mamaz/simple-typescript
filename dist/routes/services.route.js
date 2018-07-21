@@ -1,10 +1,12 @@
-var express = require('express');
-var router = express.Router();
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express = require("express");
+const router = express.Router();
 /*
   /services
 */
-router.get('/', function (req, res, next) {
-    res.send('/services');
+router.get("/", (req, res, next) => {
+    res.send("/services");
 });
-module.exports = router;
+exports.default = router;
 //# sourceMappingURL=services.route.js.map
