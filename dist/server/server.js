@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const dbg = require("debug");
+const http = require("http");
 const app_1 = require("../app");
-const debug_1 = require("debug");
-const http = require('http');
-const debug = debug_1.default('jualjasa:server');
+const debug = dbg('jualjasa:server');
 /**
  * Get port from environment and store in Express.
  */

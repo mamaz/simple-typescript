@@ -1,5 +1,7 @@
+import * as assert from 'assert';
+
 describe('Service Controller', () => {
-  test('', () => {
-    const a = '';
+  it('', () => {
+    assert.equal(true, true);
   });
 });

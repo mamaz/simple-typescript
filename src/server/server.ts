@@ -4,10 +4,10 @@
  * Module dependencies.
  */
 
+import * as dbg from 'debug';
+import * as http from 'http';
 import app from '../app';
-import dbg from 'debug';
 
-const http = require('http');
 const debug = dbg('jualjasa:server');
 
 /**
